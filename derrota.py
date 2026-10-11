@@ -1,7 +1,8 @@
 import turtle as tr
 import random
 
-tr.speed(99)
+tr.tracer(0,0)
+#tr.speed(0)
 tr.setup(770, 845)
 #parte arriba
 tr.color("black","#f6e6d4")
@@ -870,5 +871,5 @@ tr.circle(50, 33)
 tr.seth(20)
 tr.circle(-50,30)
 
-
+tr.up()
 tr.done()
